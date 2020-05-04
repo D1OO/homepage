@@ -50,10 +50,24 @@ section h3 {
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(244,244,244,1) 100%); 
 }
 
-.timeline-block ul li {
+.timeline-block > ul > li {
     display: flex;
 }
 
-.timeline-block ul li > p {
+.timeline-block ul li p em {
     margin-right: 1em;
+    font-size: 1.3rem;
+}
+
+.timeline-small ul li {
+    display: flex;
+    font-size: 1rem;
+}
+
+.years-period {
+    display:table-caption;
+}
+
+li .highlighted{
+    padding-left: 0;
 }
