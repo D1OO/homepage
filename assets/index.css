@@ -14,6 +14,10 @@ section  {
     background-color: rgb(245, 245, 245);
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 section p {
     padding-left: 1em;
     padding-right: 1em;
@@ -38,6 +42,18 @@ section h3 {
     font-size: large;
 }
 
-h1 {
-    font-size: 2rem;
+.timeline-block {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height:400px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 12%, rgba(244,244,244,1) 100%); 
+}
+
+.timeline-block ul li {
+    display: flex;
+}
+
+.timeline-block ul li > p {
+    margin-right: 1em;
 }
