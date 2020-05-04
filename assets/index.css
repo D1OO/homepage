@@ -76,11 +76,9 @@ li .highlighted{
 
 .carousel {
     background: white;
-    border: 0.7em solid black;
-    border-bottom: none;
   }
   
-  .carousel-cell {
+.carousel-cell {
     width: 66%;
     height: 100px;
     display: flex;
@@ -89,28 +87,48 @@ li .highlighted{
     margin-right: 10px;
     border-radius: 5px;
     counter-increment: gallery-cell;
-  }
-  
-  .carousel-cell:before {
-    display: block;
-    text-align: center;
-    
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-  }
+}
   
 
-.first-slide{
-    height: 100%;
-    width: 100%;
-    color: white;
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#carousel-header {
+    border: 0.7em solid black;
+    border-bottom: none;
 }
 
-.first-slide h1 {
-   
+#carousel-header p {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#carousel-accomplishments .carousel-cell {
+    align-items: flex-start;
+    margin-bottom: 2em;
+    width: 100%;
+    height: 400px;
+}
+
+#carousel-accomplishments .carousel-cell h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#carousel-accomplishments .carousel-cell .timeline-block> ul> li {
+    display: inline-block;
+}
+
+#carousel-accomplishments .carousel-cell .timeline-block> ul {
+    max-height: 340px;
+}
+
+
+#carousel-accomplishments .carousel-cell .details {
+    margin-bottom: 2rem;
+}
+
+#carousel-accomplishments .carousel-cell .bordered {
+    height: 100%;
+}
+
+#carousel-accomplishments .carousel-cell .details label {
+    font-weight: 600;
 }
