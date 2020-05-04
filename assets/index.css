@@ -1,0 +1,43 @@
+main {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.6614845767408526) 37%, rgba(252,70,70,0.717506985704438) 100%); 
+}
+
+.page {
+    padding: 2em;
+}
+
+section  {
+    padding: 0;
+    padding-bottom: 1em;
+    margin: 1em 0;
+    background-color: rgb(245, 245, 245);
+}
+
+section p {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+section h3 {
+    /* background: rgb(168,168,168);
+    background: linear-gradient(265deg, rgba(168,168,168,0) 1%, rgba(238,158,158,1) 100%);  */
+    background: rgb(32,32,32);
+    background: linear-gradient(90deg, rgba(32,32,32,1) 20%, rgba(69,131,252,0.8491596467688638) 70%, rgba(255,79,79,0.5382352770209646) 100%); 
+    color: white;
+    padding: 0.3rem;
+    
+}
+
+.bordered {
+    margin: 1em;
+}
+
+.contacts {
+    font-weight: normal;
+    font-size: large;
+}
+
+h1 {
+    font-size: 2rem;
+}
