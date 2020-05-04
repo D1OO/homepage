@@ -5,6 +5,8 @@ main {
 
 .page {
     padding: 2em;
+    border: 0.7em solid black;
+    border-top: none;
 }
 
 section  {
@@ -70,4 +72,45 @@ section h3 {
 
 li .highlighted{
     padding-left: 0;
+}
+
+.carousel {
+    background: white;
+    border: 0.7em solid black;
+    border-bottom: none;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  
+
+.first-slide{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-slide h1 {
+   
 }
