@@ -141,3 +141,8 @@ li .highlighted{
 #carousel-accomplishments .carousel-cell .details label {
     font-weight: 600;
 }
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
