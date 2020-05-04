@@ -44,6 +44,12 @@ section h3 {
     font-size: large;
 }
 
+.twitter-timeline {
+    border: 2px solid black;
+    padding-bottom: 0;
+    margin-top: 2.5em;
+}
+
 .timeline-block {
     overflow-y: auto;
     overflow-x: hidden;
@@ -112,14 +118,17 @@ li .highlighted{
     font-size: 1.5em;
 }
 
+#carousel-accomplishments .carousel-cell .timeline-block {
+    background: white;
+}
+
 #carousel-accomplishments .carousel-cell .timeline-block> ul> li {
     display: inline-block;
 }
 
-#carousel-accomplishments .carousel-cell .timeline-block> ul {
+#carousel-accomplishments .timeline-block> ul {
     max-height: 340px;
 }
-
 
 #carousel-accomplishments .carousel-cell .details {
     margin-bottom: 2rem;
