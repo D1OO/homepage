@@ -3,14 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Résumé</title>
+    <title>Donald Trump</title>
     <link rel="stylesheet" href="./assets/base.css">
-    <link rel="stylesheet" href="./assets/index.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png"/>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
   </head>
   <body>
+    <div>
+      <div class="credits">
+        Inspired by <a href="https://volodymyrkushnir.com/" rel="external"><strong>volodymyrkushnir.com</strong></a> &#x1f60d;
+      </div>
+    </header>
     <main>
       <article>
-        <div class="page" style="border: 0.7em solid black;">
+        <div class="carousel" id="carousel-header" data-flickity='{ "autoPlay": true, "pageDots": false, "wrapAround": true }'>
+          <div class="carousel-cell"><p>"Unemployment claims hit a 49-year low"</p></div>
+          <div class="carousel-cell"><p>"Median household income has hit highest level ever recorded"</p></div>
+          <div class="carousel-cell"><p>"95 percent of U.S. manufacturers are optimistic about the future — the highest ever"</p></div>
+        </div>
+        <div class="page">
           <div class="stackable grid">
             <div class="row">
               <div class="four wide center aligned column">
@@ -22,7 +38,6 @@
               <div class="eleven wide column">
                 <div class="stackable grid">
                   <div class="sixteen wide column">
-                    <!-- Name, job, contacts -->
                     <h1 class="name">Donald Trump</h1>
                     <div class="job">President of United States of America</div>
                       <ul class="contacts">
@@ -71,20 +86,78 @@
             </div>
             <div class="row">
               <div class="ten wide column">
+                <a href="https://www.promiseskept.com/" rel="external"><h1>See My Administration Accomplishments</h1></a>
+                <h1>Just to name a few:</h1>
+                <div class="carousel" id="carousel-accomplishments" data-flickity='{ "pageDots": false, "wrapAround": true }'>
+                  <div class="carousel-cell">
+                    <li class="bordered">
+                      <ul>
+                        <h3>Economy And Jobs</h3>
+                        <div class="timeline-block">
+                          <ul class="">
+                            <li class="details">
+                              <input type="checkbox" id="other6">
+                              <label for="other6" class="summary">✔️ Under President Trump’s leadership, Congress passed historic tax cuts and relief for hard-working Americans. The Tax Cuts and Jobs Act:
+                              </label>
+                              <div>
+                                <ul>
+                                  <li>Is the first major tax reform signed in 30 years.</li>
+                                  <li>Provided tax relief for 82% of middle-class families.</li>
+                                  <li>Doubled the Child Tax Credit proving an additional $1,000 per child in tax relief for working parents.</li>
+                                  <li>Nearly doubled the standard deduction, a change that simplified the tax filing process for millions of Americans.</li>
+                                  <li>Cut taxes for small business by 20%, providing $415 billion in tax relief for small business owners.</li>
+                                  <li>Alleviated the tax burden on over 500 companies. who used those savings to fund bonuses, wage increases for 4.8 million workers.</li>
+                                  <li>Spurred new investments into the American economy, after it was passed businesses invested $482 billion into new American projects.</li>
+                                  <li>Made U.S. companies competitive on the world stage, lowering the corporate tax rate from one of the highest in the industrialized world (35%) to 21%.</li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="details">
+                              <input type="checkbox" id="other7">
+                              <label for="other7" class="summary">✔️ U.S. Gross Domestic Product (GDP) growth has soared under President Trump, topping 3% in 4 quarters under his administration.
+                              </label>
+                              <div>
+                                <ul>
+                                  <li>2018 annual GDP growth was 2.9%</li>
+                                  <li>In the first quarter of 2019 GDP growth was 3.1%</li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li class="details">
+                              <input type="checkbox" id="other8">
+                              <label for="other8" class="summary">✔️ President Trump is unleashing economic growth and jobs. Since his election, the Trump administration’s pro-growth policies have generated 6 million new jobs, the unemployment rate has fallen to its lowest point in 50 years, and wages have grown at more than 3% for 10 months in a row. 
+                              </label>
+                              <div>
+                                <ul>
+                                  <li>The manufacturing industry created nearly half a million new jobs.</li>
+                                  <li>625,000 new construction jobs have been created since President Trump took office. </li>
+                                  <li>Hispanic, Asian and African American unemployment rates have all reached record lows under President Trump.</li>
+                                  <li>There are more than a million more job openings than unemployed persons in the U.S. </li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </ul>
+                    </li> 
+                  </div>
+                  <div class="carousel-cell"><p>"Median household income has hit highest level ever recorded"</p></div>
+                  <div class="carousel-cell"><p>"95 percent of U.S. manufacturers are optimistic about the future — the highest ever"</p></div>
+                </div>
                 <li class="bordered">
                   <ul>
                     <li class="details">
                       <input type="checkbox" id="other" checked="">
-                      <label for="other" class="summary"><h3>Experience</h3></label>
-                      <div>
+                      <label for="other" class="summary"><h3>Path to presidency</h3></label>
+                      <div class="timeline-block">
                         <ul class="timeline">  
-                          <li>
+                          <li class="highlighted">
                               <p><em>2017</em></p>
-                              <p>Became 45th president of the United States</p>
+                              <p><strong>Became 45th president of the United States</strong></p>          
                           </li>
                           <li>
                               <p><em>2016</em></p>
-                              <p>Won election race with 77 votes more than Clinton, yippe-kee-yay!</p>
+                              <p><strong>Won election race with 77 votes more than Clinton, yippe-kee-yay!</strong></p>
                           </li>
                           <li>
                               <p><em>2015</em></p>
@@ -123,7 +196,7 @@
                               <p>Refurbished the Gulf and Western Building on Columbus Circle, turned it into a 44-story luxury property known as Trump International Hotel and Tower</p>
                           </li>
                           <li>
-                              <p><em>1989 ― 1992</em></p>
+                              <p><em class="years-period">1989 ― 1992</em></p>
                               <p>Ran a second hand airline called Trump Shuttle. What a waste of money, I had to sell it, now it is American Airlines Shuttle, btw </p>
                           </li> 
                           <li>
@@ -148,15 +221,17 @@
                           </li>
                           <li>
                               <p><em>1980</em></p>
-                              <p>Started developing the Trump Tower skyscraper in Manhattan</p>
-                                  <ul>
-                                      <li>Payed a crew of undocumented Polish workers to demolish the historic Bonwit Teller store, including art deco features</li>
-                                      <li>Architectural critic Paul Goldberger stated that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years".</li>
-                                  </ul>
-                              <p>Started a repair job on the Wollman Rink in Central Park</p>
-                                  <ul>   
-                                      <li>completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!</li>
-                                  </ul>
+                              <div class="timeline-element">
+                                <p>Started developing the Trump Tower skyscraper in Manhattan</p>
+                                <ul>
+                                    <li>Payed a crew of undocumented Polish workers to demolish the historic Bonwit Teller store, including art deco features</li>
+                                    <li>Architectural critic Paul Goldberger stated that the tower's atrium is "the most pleasant interior public space to be completed in New York in some years".</li>
+                                </ul>
+                                <p>Started a repair job on the Wollman Rink in Central Park</p>
+                                <ul>   
+                                    <li>completed the work in three months for $1.95 million, which was $775,000 less than the initial budget!</li>
+                                </ul>
+                              </div> 
                           </li>
                           <li>
                               <p><em>1978</em></p>
@@ -179,9 +254,9 @@
                 <li class="bordered">
                   <ul>
                     <li class="details">
-                      <input type="checkbox" id="other2" checked="">
+                      <input type="checkbox" id="other2">
                       <label for="other2" class="summary"><h3>Personal life</h3></label>
-                      <div>
+                      <div class="timeline-block">
                         <ul class="timeline">
                           <li>
                               <p><em>2006</em></p>
@@ -233,7 +308,7 @@
                     <li class="details">
                       <input type="checkbox" id="other3">
                       <label for="other3" class="summary"><h3>Media career</h3></label>
-                      <div>
+                      <div class="timeline-block">
                         <ul class="timeline">
                           <li>
                               <p><em>2019</em></p>
@@ -245,11 +320,13 @@
                           </li>
                           <li>
                               <p><em>2011</em></p>
-                              <ul>
-                                  <li>Published a book <strong>"Time to Get Tough: Making America #1 Again"</strong> in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</li>
+                              <div class="timeline-element">
+                                <ul>
+                                  <li >Published a book <strong>"Time to Get Tough: Making America #1 Again"</strong> in coauthorship with Wynton Hall, Peter Schweizer and Meredith McIver</li>
                                   <li>Published a book <strong>"Midas Touch: Why Some Entrepreneurs Get Rich – And Why Most Don't"</strong> in coauthorship with Robert Kiyosaki</li>
                                   <li>Published a book <strong>"Trump Tower"</strong> in coauthorship with Jeffrey Robinson</li>
                               </ul>  
+                              </div>
                           </li>
                           <li>
                               <p><em>2009</em></p>
@@ -261,10 +338,12 @@
                           </li>
                           <li>
                               <p><em>2007</em></p>
-                              <ul>
+                              <div class="timeline-element">
+                                <ul>
                                   <li>Published a book <strong>"Think Big and Kick Ass"</strong> in coauthorship with Bill Zanker</li>
                                   <li>Received a star on the Hollywood Walk of Fame for being producer of Miss Universe pageant</li>
                               </ul>
+                              </div>
                           </li>
                           <li>
                               <p><em>2006</em></p>
@@ -284,7 +363,7 @@
                               <p>Published a book <strong>"The Best Golf Advice I Ever Received"</strong></p>
                           </li>
                           <li>
-                              <p><em>2004 ― 2008</em></p>
+                              <p><em class="years-period">2004 ― 2008</em></p>
                               <p>Ran short-form talk radio program <strong>"Trumped!"</strong> (one to two minutes on weekdays)</p>
                           </li>
                           <li>
@@ -300,7 +379,7 @@
                               <p>Published a book <strong>"Trump: How to Get Rich"</strong> in coauthorship with Meredith McIver</p>
                           </li>
                           <li>
-                              <p><em>2003 ― 2015</em></p>
+                              <p><em class="years-period">2003 ― 2015</em></p>
                               <p>Produced NBC reality shows <strong>"The Apprentice"</strong> and <strong>"The Celebrity Apprentice"</strong></p>
                           </li>
                           <li>
@@ -327,13 +406,14 @@
                       </div>
                     </li>
                   </ul>
-                </li>   
+                </li> 
+                <div class="row">
+                  <div class="sixteen wide column">
+                    <div class="fat divider"></div>
+                  </div>
+                </div>
               </div>
               <div class="six wide column">
-                <section>
-                  <h3>Languages</h3>
-                  <p class="tags small"> <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span> <a href="/ru-ru" hreflang="ru" rel="alternate" class="language" lang="ru">&#x1f1f7;&#x1f1fa; <span>РУССКИЙ</span></a></p>
-                </section>
                 <section>
                   <h3>Skills</h3>
                   <p class="tags small">NEGOTIATING COUNTING REMODELING WRITING ACING SINGING REPORTING INCORPORATING SELLING ADVERTISING HOSTING COMPETING TWITTING PARENTING GAMBLING DATING SUING ORGANIZING FUNDING DEBATING ADVISING PRESBYTERIANING</p>
@@ -356,26 +436,31 @@
                 </section>
                 <section>
                   <h3>Education</h3>
-                  <ul class="timeline">
+                  <div class="timeline-small">
+                    <ul class="timeline">
                       <li>
                           <p><em>2011</em></p>
-                          <p>Asked friends <em>who are prominent and wealthy alumni of the New York Military Academy</em> to secure my academic records so they could not be seen by anyone, never!</p>
+                          <p>Asked friends who are prominent and wealthy alumni of the <strong>New York Military Academy</strong> to secure my academic records so they could not be seen by anyone, never!</p>
                       </li>
                       <li>
                           <p><em>1966</em></p>
-                          <p>Transferred to the Wharton School of the University of Pennsylvania and graduated in May 1968 with a B.S. in economics  </p>
+                          <p>Transferred to the <strong> Wharton School</strong> of the <strong>University of Pennsylvania</strong> and graduated in May 1968 with a <strong>B.S. in economics</strong>  </p>
                       </li>
                       <li>
                           <p><em>1964</em></p>
-                          <p>Started studying in Fordham University</p>
+                          <p>Started studying in <strong>Fordham University</strong></p>
                       </li>
                       <li>
                           <p><em>1959</em></p>
-                          <p>Enrolled in the New York Military Academy, a private boarding school, after my parents discovered I made frequent trips to Manhattan without their permission </p>
+                          <p>Enrolled in the <strong>New York Military Academy</strong>, a private boarding school, after my parents discovered I made frequent trips to Manhattan without their permission </p>
                       </li>
                   </ul>
-                </section>>
-                <!-- Articles -->
+                  <section class="twitter-timeline">
+                    <a class="twitter-timeline" data-height="400" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a>
+                   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                  </section>  
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -383,7 +468,7 @@
       </article>
     </main>
     <footer>
-      <em>This a footer</em>
+      <object class="avatar" data="./assets/img/signature.png" role="img" aria-label="Donald Trump's signature"></object>
     </footer>
   </body>
 </html>
