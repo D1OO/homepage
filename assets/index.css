@@ -80,12 +80,13 @@ li .highlighted {
   padding-left: 0;
 }
 
-.bordered, ul>li::before{
-    content: none;
+.bordered,
+ul > li::before {
+  content: none;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .carousel {
